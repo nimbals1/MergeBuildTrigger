@@ -1,5 +1,5 @@
 package org.jenkinsci.plugins.github;
-
+www
 import hudson.Plugin;
 import org.jenkinsci.plugbins.github.config.GitHubPluginConfig;
 import org.jenkinsci.plugins.github.migration.Migrator;
