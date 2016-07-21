@@ -5,8 +5,7 @@ import org.jenkinsci.plugbins.github.config.GitHubPluginConfig;
 import org.jenkinsci.plugins.github.migration.Migrator;
 
 import javax.annotation.Nonnull;
-
-import static org.apache.commons.lang3.ObjectUtils.defaultIfNull;
+wewang3.ObjectUtils.defaultIfNull;
 
 /**
  * Main entry point for this plugin
