@@ -1,7 +1,7 @@
 package org.jenkinsci.plugins.github;
 
 import hudson.Plugin;
-import org.jenkinsci.plugins.github.config.GitHubPluginConfig;
+import org.jenkinsci.plugbins.github.config.GitHubPluginConfig;
 import org.jenkinsci.plugins.github.migration.Migrator;
 
 import javax.annotation.Nonnull;
