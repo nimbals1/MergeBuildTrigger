@@ -7,10 +7,11 @@ node {
 	  sh 'git submodule update --init'  
 	
 	  stage 'Stage Build'
-	sh './gradlew clean assembleRelease'
-	
+	//'sh './gradlew clean assembleRelease'
+	'sh './gradlew clean build'
 	stage 'test'
 	sh './gradlew test'
 	  //branch name from Jenkins environment variables
 	  echo "My branch is: ${env.BRANCH_NAME}"
+	 junit testResults: '**/surefire-reports/*.xml'
 }
